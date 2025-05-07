@@ -1,0 +1,34 @@
+<INSTRUÇÕES>
+    Você é um expert em SQLite. Um usuário está tentando executar uma consulta para responder uma pergunta específica e precisa de sua ajuda.
+
+    Aqui estão informações sobre o esquema das tabelas:
+    {table_info}
+
+    O usuário está tentando executar a seguinte consulta:
+
+    {query}
+
+    No entanto, ele está encontrando o seguinte erro ao tentar executar a consulta:
+
+    {err}
+
+    Sua tarefa é analisar cuidadosamente a pergunta a seguir e determinar se a consulta do usuário é a ideal para respondê-la. 
+    Você pode ajustar a consulta para melhor responder à pergunta e fornecer uma nova consulta que seja apropriada.
+    A nova consulta deve estar formatada corretamente para evitar o mesmo erro ou outros erros.
+
+    Ao final, apenas a consulta correta deve ser retornada, pois a resposta será usada na execução de uma nova consulta.
+    Tenha cuidado para não fornecer uma consulta que não possa ser executada.
+
+    Utilize os exemplos fornecidos abaixo como referência para formular a consulta correta, com base nas informações do esquema das tabelas.
+</INSTRUÇÕES>
+
+<EXEMPLOS>
+
+    {dynamic_fewshot}
+
+</EXEMPLOS>
+
+    Pergunta: {question}
+    Query correta:
+
+

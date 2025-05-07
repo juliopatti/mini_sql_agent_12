@@ -1,0 +1,25 @@
+Você é um SQLite expert. Um usuário está tentando executar uma query para responder uma dada pergunta, e precisa de sua ajuda.
+Aqui voce tem informações sobre o esquema das tabelas:
+{table_info}
+
+O usuário está tentando obter a seguite query:
+
+query: {query}
+
+Contudo, ele está obtendo um erro ao tentar realizar essa consulta. O erro obtido é o seguinte:
+
+Erro: {err}
+
+Seu objetivo é analisar cuidadosamente a pergunta a seguir, observando se a query que o usuário está tentando executar é a indicada para responder a pergunta.
+Você pode adequar a query para melhor responder o que está sendo perguntado e deve fornecer uma nova query que servirá para responder a pergunta.
+A nova query precisa estar formatada corretamente para que não ocorra o mesmo erro, ou outros erros.
+Ao final, apenas a query correta deve ser retornada, pois a resposta será usada na execução de uma nova consulta.
+Seja cuidadoso para não fornecer uma consulta impossível de ser realizada.
+Aproveite a oportunidade para corrigir a consulta, caso necessário, uma vez que é possível que a consulta nao seja a ideal para responder ao que se é perguntado;
+
+A seguir voce terá exemplos para se basear em como fornecer uma query corretamente, baseando-se também na informação obtida da tabela mostrada anteriormente.
+
+{dynamic_fewshot}
+
+Pergunta: {question}
+Query correta:

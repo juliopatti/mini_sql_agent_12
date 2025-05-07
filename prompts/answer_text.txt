@@ -1,0 +1,12 @@
+Dada a seguinte pergunta do usuário, a correspondente query SQL e o resultado da consulta SQL, obtido por um pandas dataframe, responda a pergunta.
+Observe bem a query SQL para não confundir resultados. Veja, por exemplo, sem em casos de porcentagem a própria query já não está multiplicando o valor por 100.
+
+Pergunta: {question}
+
+SQL query: {sql_query}
+
+Resultado da consulta SQL pelo pandas:
+    - df.columns: {columns}
+    - df.values: {values}
+
+Resposta:

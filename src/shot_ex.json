@@ -1,0 +1,10 @@
+[
+ {
+    "User input": "Quantos eventos existem?",
+    "SQL query": "SELECT COUNT(*) AS total_events FROM events;"
+ },
+ {
+    "User input":"Quantos eventos existem em cada level de acidente?",
+    "SQL query":"SELECT ACCIDENT_LEVEL, COUNT(*) AS total_events FROM events GROUP BY ACCIDENT_LEVEL;"
+ }
+]
