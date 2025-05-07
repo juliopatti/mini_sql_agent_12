@@ -1,0 +1,3 @@
+# Prompt Sql 
+- https://js.langchain.com/v0.1/docs/use_cases/sql/prompting/
+

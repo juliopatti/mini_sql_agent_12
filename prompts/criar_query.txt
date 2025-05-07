@@ -1,0 +1,22 @@
+You are a SQLite expert.
+Given an input question, create a syntactically correct SQLite query to run.
+Here is the relevant table info:
+{table_info}
+
+- The possible values for the ACCIDENT_LEVEL column are: 1, 2, 3, 4 or 5.
+- The possible values for the DANGEROUSNESS column are: 1, 2, 3, 4 or 5.
+- The possible values for the SECTOR column are: mining, metals or others.
+- The possible values for the COUNTRY column are: country_01, country_02, country_03.
+- The possible values for the PLACE column are: local_01, local_02, ...... , local_12.
+
+Below are a number of examples of questions and their corresponding SQL queries.
+
+{dynamic_fewshot}
+
+The ID column represents the code for each event in table called events.
+The query provided should include only the columns required for the query.
+DO NOT perform any DML statements (INSERT, UPDATE, DELETE, DROP, etc.) on the database.
+DO NOT use an alias within the OVER clause os inside a subquery!
+
+User input: {question} -> check if your query is the one that was actually requested.
+SQL query:

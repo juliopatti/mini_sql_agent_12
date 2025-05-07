@@ -1,0 +1,9 @@
+https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database?resource=download
+
+https://events.nvidia.com/dlivirtualworkshopsforhighered#:~:text=DLI%20Virtual%20Workshops%20for%20Higher%20Ed&text=Join%20NVIDIA's%20Deep%20Learning%20Institute,computing%2C%20and%20accelerated%20data%20science.
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfDExNTI0MjU3MzMyNTc4ODc5NTU5MSIsImFwaUtleUlkIjoiMGYzMmIzZjktMDE2NC00MGYyLWJkM2QtNDQ4ZGFhYTRhNTg3Iiwic2NvcGUiOiJyZWFkOnBhY2thZ2VzIiwiaWF0IjoxNzMyOTg3NzA5LCJleHAiOjE3NDA3NjM3MDl9.p7l9tcCFuLidCf9y0MmI6vFg_kOfIE2WwuRzgNhcH3c
+
+https://hub.guardrailsai.com/keys
+
+https://github.com/sandeco/prompts
